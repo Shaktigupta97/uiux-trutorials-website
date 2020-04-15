@@ -5,11 +5,11 @@
   background-color:#f9f3f4;
   
 }
-.logo {
-  height: 50px;
-  width: 170px;
-  float: left;
-  margin: 5px;
+.logo-container{
+  height: 58px;
+}
+.logo-container >img{
+  height: 100%;
 }
 .menu{
   margin: 5px;
@@ -58,7 +58,6 @@
 
 .about-section{
   margin: 0 auto;
-  padding: 10px;
   height: 50%;
 }
 .abt-heading{
@@ -68,19 +67,7 @@
   font-weight: 600;
   margin-bottom: 25px; 
 }
-.signup-form{
-  margin-right: 15px;
-  margin-left: 15px;
-}
-.form-control{
-  background: #fff;
-  padding: 25px;
-  border: none;
-  font-size: 15px;
-  font-weight: 500;
-  height: 30px;
-  
-}
+
 .signup-btn{
   height: 30px;
   background-color: #d82a4e;
