@@ -2,8 +2,6 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color:#f9f3f4;
-  
 }
 .logo-container{
   height: 58px;
@@ -55,7 +53,6 @@
   padding-top: 340px;
   margin-bottom: 105px;
 }
-
 .about-section{
   margin: 0 auto;
   height: 50%;
@@ -67,7 +64,6 @@
   font-weight: 600;
   margin-bottom: 25px; 
 }
-
 .signup-btn{
   height: 30px;
   background-color: #d82a4e;

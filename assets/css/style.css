@@ -2,10 +2,9 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #f9f3f4;
 }
-.navbar-toggler{
-  
+.bg-light-maroon{
+  background-color: #f9f3f4;
 }
 .logo-container {
   height: 58px;
@@ -14,11 +13,6 @@
 .logo-container>img {
   height: 100%;
 }
-
-.menu {
-  margin: 5px;
-}
-
 .menu ul {
   list-style: none;
   margin-right: 30px;
@@ -30,14 +24,20 @@
 }
 
 .menu-heading {
-  display: inline-block;
   font-size: 20px;
-  color: #d82a4e;
+  color: #d82a4e !important;
   font-weight: 600;
 }
 
-.menu ul li a:hover {
-  color: black !important;
+.menu ul li a:hover,
+.menu ul li a:active,
+.menu ul li a:focus {
+  color: #d82a4e !important;
+}
+
+.navbar-toggler{
+  color: #D82A4E !important;
+  border-color: #D82A4E !important;
 }
 
 .login-btn {

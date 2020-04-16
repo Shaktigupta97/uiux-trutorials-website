@@ -13,22 +13,20 @@
 
 <body>
   <!-- Header -->
-  <header class="main-header">
+  <header class="main-header bg-light-maroon">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-lg-3">
-          <div class="logo-container">
-            <img src="assets/media/images/logo-transparent.png" class="float-left" alt="logo">
-          </div>
-        </div>
-        <div class="col-md-9 col-lg-9">
-          <nav class="navbar navbar-expand-lg menu">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg menu navbar-light bg-transparent">
+            <div class="navbar-brand logo-container">
+              <img src="assets/media/images/logo-transparent.png" alt="logo">
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="d-inline-block py-2">MENU</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav ml-auto mr-0">
                 <li class="nav-item active">
                   <a class="nav-link menu-heading" href="Home-page.html">Home <span class="sr-only"></span></a>
                 </li>
@@ -46,10 +44,12 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
                 </li>
-                <li class="nav-item menu-heading">
-                  <a class="nav-link" href="contact-us page.html">Contact Us</a>
+                <li class="nav-item">
+                  <a class="nav-link menu-heading" href="contact-us page.html">Contact Us</a>
                 </li>
-                <a href="Home-page.html"><button class="btn my-2 my-sm-0 login-btn" type="submit">Login</button></a>
+                <li class="nav-item">
+                  <a href="Home-page.html" class="btn my-lg-0 my-4 login-btn" role="button">Login</a>
+                </li>
               </ul>
             </div>
           </nav>
